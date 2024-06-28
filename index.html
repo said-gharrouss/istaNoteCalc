@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="rf active">Result Final</div>
+        <div class="eff">Note de EFF</div>
+    </div>
+    <div id="box" class="box-container rf-container">
+        <form class="box-form" action="" method="post">
+            <fieldset class="box-fieldset">
+                <label class="box-label" for="n1">Note de la première année</label>
+                <input class="box-input n1" type="text" id="n1" required>
+                <label class="box-label" for="n2">Note de la deuxième année</label>
+                <input class="box-input n2" type="text" id="n2" required>
+                <label class="box-label" for="nf">Note de l'examen final</label>
+                <input class="box-input nf" type="text" id="nf" required>
+                <label class="box-label">Résultat final</label>
+                <div class="box-result result">0</div>
+            </fieldset>
+        </form>
+    </div>
+    
+    <div id="box" class="box-container eff-container">
+        <form class="box-form" action="" method="post">
+            <fieldset class="box-fieldset">
+                <label class="box-label">Résultat final</label>
+                <input class="box-input effresult" type="text" required>
+                <label class="box-label" for="n1">Note de la première année</label>
+                <input class="box-input effn1" type="text" id="n1" required>
+                <label class="box-label" for="n2">Note de la deuxième année</label>
+                <input class="box-input effn2" type="text" id="n2" required>
+                <label class="box-label">Note de l'examen final</label>
+                <div class="box-result effnote">0</div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 40px;
+}
+.navbar div{
+    background-color: #ebf4ff;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.active{
+    background-color: #5a67d8 !important;
+    color: white;
+}
+.box-container {
+    width: 30rem;
+    background-color: #ebf4ff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.box-form {
+    color: #5a67d8;
+}
+
+.box-fieldset {
+    border: 4px dotted #5a67d8;
+    padding: 1.25rem;
+}
+
+.box-legend {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-style: italic;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.box-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    position: relative;
+    margin-bottom: 0.2rem;
+    font-size: 18px;
+}
+
+.box-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.25rem;
+    outline: none;
+}
+
+.box-input:focus {
+    border-color: #5a67d8;
+    box-shadow: 0 0 0 3px rgba(90, 103, 216, 0.5);
+}
+
+.box-result{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+    height: 40px;
+    border-radius: 0.25rem;
+    background-color: #5a67d8;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.eff-container{
+    display: none;
+}
